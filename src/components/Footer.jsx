@@ -3,7 +3,7 @@ import FB from "../assets/facebook 1.png";
 import Twitter from "../assets/twitter.png";
 const Footer = () => {
   return (
-    <footer className="grid gap-8 justify-between px-4 py-12 md:grid-cols-4 md:gap-24 md:px-28">
+    <footer className="grid justify-between gap-8 px-4 py-12 md:grid-cols-4 md:gap-24 md:px-28">
       <div className="flex flex-col gap-4">
         <p className="text-2xl font-extrabold">
           Blaque <span className="text-[#C3C7DD]">Tech </span>
@@ -16,10 +16,13 @@ const Footer = () => {
         <div className="flex flex-col">
           <p className="text-xl font-bold">Get in touch</p>
           <p className="text-xl text-[#C3C7DD]">
-            123 W. Kanye Street Los Angeles, CA 90001
+            109 13th Street, Orange Grove Johannesburg
           </p>
         </div>
-        <p className="text-[#C3C7DD]">(415) 555-1234 hello@crator.com</p>
+        <p className="text-[#C3C7DD]">
+          {" "}
+          +27 69 415 9494 innovate@blaquetech.dev
+        </p>
       </div>
       <div className="flex flex-col gap-4">
         <p className="text-xl font-bold">Company</p>

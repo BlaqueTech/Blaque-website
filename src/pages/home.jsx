@@ -1,11 +1,10 @@
-import React from "react";
-
 import Welcome from "../components/Welcome";
 import Partners from "../components/Partners";
 import Wedo from "../components/Wedo";
 import Process from "../components/Process";
-import Work from "../components/Work";
-import Testimonials from "../components/Testimonials";
+// import Work from "../components/Work";
+// import Testimonials from "../components/Testimonials";
+import Something from "../components/Something";
 
 const Home = () => {
   return (
@@ -14,8 +13,9 @@ const Home = () => {
       <Partners />
       <Wedo />
       <Process />
-      <Work />
-      <Testimonials />
+      {/* <Work /> */}
+      {/* <Testimonials /> */}
+      <Something />
     </>
   );
 };

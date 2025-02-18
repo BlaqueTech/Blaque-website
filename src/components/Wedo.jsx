@@ -1,10 +1,3 @@
-import bright from "../assets/bright.png";
-import Code from "../assets/coding.png";
-import Settings from "../assets/Settings.png";
-import img1 from "../assets/grid-img-1.webp";
-import img2 from "../assets/grid-img-2.webp";
-import img3 from "../assets/grid-img-3.webp";
-
 const Wedo = () => {
   return (
     <div
@@ -27,17 +20,22 @@ const Wedo = () => {
             that enhance customer experiences.
           </p>
           <p className="md:text-[22px] text-[20px] text-[#C2C7DC] col-span-2">
-            We focus on collaboration and adaptability, ensuring our services
-            are aligned with industry trends and client needs.
+            We specializes in comprehensive digital solutions tailored to
+            businesses of all sizes. Our expertise spans mobile and web app
+            development, custom software solutions, AI-driven innovations, UI/UX
+            design, and cloud infrastructure optimization. Whether you’re
+            looking to build a new platform, modernize existing software, or
+            integrate intelligent automation, our skilled professionals are
+            ready to deliver high-quality solutions.
           </p>
         </div>
       </div>
 
       {/**************************************************************************** */}
 
-      <div
+      {/* <div
         id="do-bottom"
-        className="flex flex-col gap-14 px-4 py-16 md:flex-row lg:px-24 h-fit"
+        className="flex flex-col px-4 py-16 gap-14 md:flex-row lg:px-24 h-fit"
       >
         <div id="bottom-left" className="flex flex-col gap-8">
           <div className="flex">
@@ -123,7 +121,7 @@ const Wedo = () => {
             </div>
           </div>
         </div>
-        {/*********************************************************************** */}
+
         <div id="bottom-right" className="flex gap-3 md:gap-6">
           <div className="h-full flex-[0.5]">
             <img
@@ -145,7 +143,7 @@ const Wedo = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

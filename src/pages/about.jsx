@@ -5,9 +5,8 @@ import img3 from "../assets/security.png";
 import img4 from "../assets/bright.png";
 import img6 from "../assets/person.png";
 import img7 from "../assets/telephone.png";
-import Testimonials from "../components/Testimonials";
 import Values from "../components/Values";
-import Team from "../components/Team";
+import Something from "../components/Something";
 
 const About = () => {
   return (
@@ -27,9 +26,8 @@ const About = () => {
             A small creative team excited to create beautiful things
           </p>
           <p className="text-xl text-[#C2C7DC] mx-16 lg:mx-96 text-center">
-            Born out of a shared passion for design and innovation, {`we're`} a
-            dedicated team committed to turning visions into impactful digital
-            realities.
+            We empower businesses with innovative digital solutions that drive
+            growth, enhance customer experiences, and streamline operations.
           </p>
         </div>
         <img
@@ -50,9 +48,9 @@ const About = () => {
             We believe in the power of creative ideas
           </p>
           <p className="text-2xl text-[#C2C7DC]">
-            In the heart of our company lies a strong belief in the
-            transformative power of ideas. Leveraging innovation and
-            originality, we aim to deliver results that exceed expectations.
+            By combining cutting-edge technology with top-tier talent, we help
+            businesses stay ahead of the curve, create scalable platforms, and
+            achieve long-term success in a rapidly evolving digital world.
           </p>
 
           {/***************************** */}
@@ -65,11 +63,10 @@ const About = () => {
                   alt=""
                   className="h-12 p-2 rounded-full bg-gradient-to-r from-[#333139] to-[#27232C]"
                 />
-                <p className="text-xl font-bold">Full transparency</p>
+                <p className="text-xl font-bold">Custom Solutions</p>
               </span>
               <p className="text-xl text-[#C2C7DC]">
-                Trust is key; we uphold honesty. Every step is communicated for
-                clarity.
+                Tailored services that meet specific client requirements.
               </p>
             </div>
             <div>
@@ -163,8 +160,9 @@ const About = () => {
         </div>
       </div>
       <Values />
-      <Team />
-      <Testimonials />
+      {/* <Team />
+      <Testimonials /> */}
+      <Something />
     </div>
   );
 };

@@ -1,4 +1,3 @@
-import React from "react";
 import Insta from "../assets/instagram.png";
 import FB from "../assets/facebook 1.png";
 import Twitter from "../assets/twitter.png";
@@ -17,7 +16,7 @@ const Letstalk = () => {
           </p>
         </div>
         {/****************************** */}
-        <div className="grid grid-cols-2 grid-rows-2 gap-y-6 ">
+        {/* <div className="grid grid-cols-2 grid-rows-2 gap-y-6 ">
           <div>
             <p className="text-lg font-bold">Los Angeles</p>
             <p className="text-[#ADC6DD]">
@@ -46,7 +45,7 @@ const Letstalk = () => {
               Miami, FL 33101
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="flex flex-col gap-4">
           <p className="text-lg font-bold ">Follow us</p>
           <div className="flex gap-6">
@@ -74,7 +73,7 @@ const Letstalk = () => {
       {/********************************************************** */}
 
       <div
-        className="flex flex-col items-center justify-center bg-[#23202A] h-full 
+        className="flex flex-col items-center justify-center bg-[#23202A] h-full
       lg:w-1/2 w-full px-10  lg:px-20 py-12 rounded-3xl"
       >
         <form action="#" className="flex flex-col gap-6 w-full justify-center">

@@ -6,7 +6,7 @@ import img5 from "../assets/features-alternating-simple-03.webp";
 import { Link } from "react-router-dom";
 import Process from "../components/Process";
 import Something from "../components/Something";
-import Weoffer from "../components/weoffer";
+// import Weoffer from "../components/weoffer";
 import Approach from "../components/approach";
 
 const Services = () => {
@@ -65,7 +65,7 @@ const Services = () => {
                   automate tasks and improve efficiency. <br /> GenAI platform
                   development for specific business needs. <br /> Customer
                   interactions automation and support through intelligent
-                  chatbots
+                  chatbots.
                 </p>
               </div>
             </div>
@@ -107,7 +107,7 @@ const Services = () => {
                 <p className="text-5xl font-bold">Cloud & DevOps</p>
                 <p className="text-[#C2C7DC] text-[22px]">
                   Cloud Infrastructure Optimization. <br />
-                  Automated Deployment & CI/CD Pipeline Management
+                  Automated Deployment & CI/CD Pipeline Management.
                 </p>
               </div>
             </div>
@@ -171,13 +171,15 @@ const Services = () => {
           <div className="flex flex-col gap-4">
             <div className="flex-[0.5] flex flex-col items-center gap-8">
               <p className="bg-gradient-to-r  from-[#27232C] to-[#333139] w-fit px-6 py-2 rounded-tl-full  rounded-r-full ">
-                Product development
+                AI Automation
               </p>
-              <p className="text-5xl font-bold">Innovative digital solutions</p>
+              <p className="text-5xl font-bold">AI & Intelligent Automation</p>
               <p className="text-[#C2C7DC] text-[22px]">
-                We specialize in crafting top-tier digital products that are
-                perfectly tailored to your brands needs. From ideation to
-                execution, we turn ideas into tangible realities.
+                We specialize in crafting top-tier custom AI solutions to
+                automate tasks and improve efficiency. <br /> GenAI platform
+                development for specific business needs. <br /> Customer
+                interactions automation and support through intelligent
+                chatbots.
               </p>
             </div>
             <div className="flex-[0.5]">
@@ -191,16 +193,14 @@ const Services = () => {
           <div className="flex flex-col gap-6">
             <div className="flex-[0.5] flex flex-col items-center gap-8">
               <p className="bg-gradient-to-r  from-[#27232C] to-[#333139] w-fit px-6 py-2 rounded-tl-full  rounded-r-full ">
-                Design
+                Software Development
               </p>
-              <p className="text-5xl font-bold">
-                Designing for better user experiences
-              </p>
+              <p className="text-5xl font-bold">App & Software Development</p>
               <p className="text-[#C2C7DC] text-[22px]">
-                Our approach leverages the power of aesthetics to create
-                unparalleled user experiences. By balancing beauty and
-                functionality, we make the complex simple, and the ordinary
-                extraordinary.
+                Mobile App Development (Android & iOS).
+                <br /> Custom Mobile & Web App Development. <br /> Custom
+                Software Solutions & Legacy Modernization. <br /> Software
+                Maintenance & Expert Support.
               </p>
             </div>
             <div className="flex-[0.5]">
@@ -214,13 +214,12 @@ const Services = () => {
           <div className="flex flex-col gap-6">
             <div className="flex-[0.5] flex flex-col items-center gap-8">
               <p className="bg-gradient-to-r  from-[#27232C] to-[#333139] w-fit px-6 py-2 rounded-tl-full  rounded-r-full ">
-                Optimization
+                Cloud & DevOps
               </p>
-              <p className="text-5xl font-bold">State of the art performance</p>
+              <p className="text-5xl font-bold">Cloud & DevOps</p>
               <p className="text-[#C2C7DC] text-[22px]">
-                We are committed to maximizing efficiency and performance
-                through the use of cutting-edge technologies. We strive to
-                ensure that each solution we provide is optimized for success.
+                Cloud Infrastructure Optimization. <br />
+                Automated Deployment & CI/CD Pipeline Management.
               </p>
             </div>
             <div className="flex-[0.5]">
@@ -231,8 +230,31 @@ const Services = () => {
               />
             </div>
           </div>
+          <div className="flex flex-col gap-6">
+            <div className="flex-[0.5] flex flex-col items-center gap-8">
+              <p className="bg-gradient-to-r  from-[#27232C] to-[#333139] w-fit px-6 py-2 rounded-tl-full  rounded-r-full ">
+                Team Augumentation
+              </p>
+              <p className="text-5xl font-bold">
+                Development Team Augmentation
+              </p>
+              <p className="text-[#C2C7DC] text-[22px]">
+                Hire Individual Roles or Full Development Teams. <br />
+                Staff Augmentation Services. <br />
+                Project & Program Management (PMO): Professional project
+                managers to oversee complex technology initiatives.
+              </p>
+            </div>
+            <div className="flex-[0.5]">
+              <img
+                src={img4}
+                alt=""
+                className="w-[650px] h-[550px] object-cover rounded-3xl"
+              />
+            </div>
+          </div>
         </div>
-        <Weoffer />
+        {/* <Weoffer /> */}
         <Approach />
         <Process />
         <Something />
